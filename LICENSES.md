@@ -346,3 +346,9 @@ SyntaxSeed 的《Gas Torch Burn》（CC0）替换彗星近场主体内的瓶式�
 - Gamemaster Audio，《bullet_shell_bounce_wood2_05》。[录音](https://sonniss.com/vendors/gamemaster-audio/) · [许可](https://sonniss.com/gdc-bundle-license/)
 - Stuart Duffield，《ShotgunShell_Land_Lino_03》。[录音](https://sonniss.com/sound-effects/bullet-sfx/) · [许可](https://sonniss.com/gdc-bundle-license/)
 - Stuart Duffield，《ShotgunShell_Land_Concrete_02》。[录音](https://sonniss.com/sound-effects/bullet-sfx/) · [许可](https://sonniss.com/gdc-bundle-license/)
+
+## 手机版命中兼容件
+
+- mredig，《hand punch.aif》。用于 flesh、mob、preview、body_tail，按接触点裁切、滤波并校准电平。[录音](https://freesound.org/people/mredig/sounds/120569/) · [许可](https://creativecommons.org/licenses/by/3.0/)
+- memuse，《flapping cloth.wav》。用于 mob、preview、body_tail，按接触点裁切、滤波并校准电平。[录音](https://freesound.org/people/memuse/sounds/280205/) · [许可](https://creativecommons.org/publicdomain/zero/1.0/)
+- northern87，《Stone dropping to ground_northern87》。用于 block，按接触点裁切、滤波并校准电平。[录音](https://freesound.org/people/northern87/sounds/369981/) · [许可](https://creativecommons.org/publicdomain/zero/1.0/)
