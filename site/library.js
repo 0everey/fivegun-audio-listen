@@ -56,14 +56,16 @@ function matches(row) {
 }
 
 function buildNavigation() {
-  $("categories").replaceChildren(...Object.entries(data.categories).map(([id, title]) => {
+  const tiles = [];
+  const wish = $("wish-entry");
+  for (const [id, title] of Object.entries(data.categories)) {
     const link = itemLink("", "#category/" + id, "tile");
     const uri = "http://www.w3.org/2000/svg";
     const svg = document.createElementNS(uri, "svg");
     svg.setAttribute("viewBox", "0 0 24 24");
     svg.setAttribute("aria-hidden", "true");
     const path = document.createElementNS(uri, "path");
-    path.setAttribute("d", labels[id]);
+    path.setAttribute("d", labels[id] || labels.ui);
     path.setAttribute("fill","none");
     path.setAttribute("stroke","currentColor");
     path.setAttribute("stroke-width","1.5");
@@ -72,9 +74,18 @@ function buildNavigation() {
     svg.append(path);
     const count = data.rows.filter(row => row.category === id && matches(row)).length;
     const quantity = node("small", count);
-    link.append(svg, node("span", title), quantity);
-    return link;
-  }));
+    if (id === "wish" && wish) {
+      const label = node("span", title, "wish-label");
+      label.append(node("span", "试听一句话生成的成品"));
+      quantity.textContent = count + " 项";
+      link.append(svg, label, quantity);
+      wish.replaceChildren(link);
+    } else {
+      link.append(svg, node("span", title), quantity);
+      tiles.push(link);
+    }
+  }
+  $("categories").replaceChildren(...tiles);
   $("tech").replaceChildren(...Object.entries(data.technical).map(([key, title]) =>
     itemLink(title, "#technical/" + key, "button")));
 }
@@ -179,6 +190,7 @@ function route() {
   technical = type === "technical" && data.technical[key] ? key : "";
   legacy = type === "group" && data.rows.some(row => row.legacy === key) ? key : "";
   const open = Boolean(category || technical || legacy);
+  if ($("wish-entry")) $("wish-entry").hidden = open || !data.categories.wish;
   $("home").hidden = open;
   $("browse").hidden = !open;
   limit = pageSize;
@@ -359,10 +371,13 @@ updateQueue();
 window.addEventListener("pageshow",updateQueue);
 window.addEventListener("storage",updateQueue);
 buildNavigation();
+const wishProject = data.rows.find(row => row.category === "wish")?.project;
+if (wishProject && ![...$("project").options].some(option => option.value === wishProject)) {
+  $("project").add(new Option(wishProject));
+}
 const initial = byKey.get("ambience:abandoned_hospital") || byKey.get("game:carbine:fivegun.carbine.fire") || data.rows[0];
 if (initial) {select(initial); paint("idle",initial.status+" · 待播放");}
 route();
 window.addEventListener("hashchange",route);
 window.addEventListener("resize",()=>thumb(current));
 window.addEventListener("pagehide",()=>{++token; audio.pause();});
-

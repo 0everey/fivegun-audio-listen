@@ -13,6 +13,11 @@ button,.button,summary{cursor:pointer}button:disabled{opacity:.48;cursor:default
 .filters{margin:14px 0}.filters select,.refine select{font-size:.88rem;width:100%}.categories{margin:0 0 16px}
 .tile{display:flex;align-items:center;gap:9px;padding:8px 10px;border:1px solid var(--line);border-radius:9px;background:var(--raised);min-width:0;min-height:54px;text-decoration:none;font-size:.99rem;font-weight:680}
 .tile svg{width:23px;height:23px;flex:none;color:#a9bed2}.tile small{margin-inline-start:auto;font-variant-numeric:tabular-nums;color:var(--muted);font-size:.75rem}.tile[aria-disabled=true]{opacity:.58}
+#wish-entry{margin:0 0 10px}
+#wish-entry .tile{border-color:#508398;background:#203d50;min-height:62px;padding:8px 12px}
+#wish-entry .tile svg,#wish-entry .tile small{color:var(--cyan)}
+.wish-label{display:grid;gap:1px;font-weight:730}
+.wish-label>span{font-size:.80rem;font-weight:400;color:var(--muted)}
 h2{font-size:1.25rem;margin:0 0 8px}.technical nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.technical a{font-size:.81rem;padding:5px 6px}
 .return{display:inline-flex;align-items:center;min-height:44px;color:var(--muted)}.refine input{min-width:0;width:100%;grid-column:1/-1}
 #result,#state,.meta{color:var(--muted);font-size:.83rem}.list-item{padding:11px 0;border-top:1px solid #324b60}.list-title{font-size:1.06rem;margin:0}.list-item code,.now strong{overflow-wrap:anywhere}.list-item code{color:var(--muted);font-size:.77rem}
@@ -26,4 +31,3 @@ h2{font-size:1.25rem;margin:0 0 8px}.technical nav{display:grid;grid-template-co
 .player progress{grid-column:1/-1;width:100%;height:4px;accent-color:var(--cyan)}.player details{max-height:26vh;overflow:auto;align-self:start;font-size:.78rem}.player summary{min-height:30px;display:flex;align-items:center;color:var(--muted)}
 .player summary::before{content:"▸";margin-right:5px}.player details[open] summary::before{content:"▾"}.volume{grid-column:2/-1;min-width:0;display:flex;align-items:center;gap:5px;font-size:.73rem;color:var(--muted);white-space:nowrap}.volume input{width:100%;min-width:55px;accent-color:var(--cyan)}
 @media(max-width:355px){main{padding-inline:11px}.tile{padding-inline:6px;gap:5px;font-size:.89rem}.tile svg{width:18px;height:18px}}
-

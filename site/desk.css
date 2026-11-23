@@ -65,12 +65,19 @@ button[aria-pressed=true]:not(.play) { background: #1b394a; color: var(--text); 
 }
 .readout { white-space: nowrap; font-size: 10px; color: var(--muted); }
 .plot {
-  height: 154px; grid-template-rows: 92px 62px; border: 0; border-radius: 0 0 8px 8px;
+  height: 166px; grid-template-rows: 92px 74px; border: 0; border-radius: 0 0 8px 8px;
   background: var(--plot);
 }
 .wave { height: 92px; }
-.spectrogram { height: 62px; border-color: #395269; }
+.spectrogram { position: relative; height: 74px; border-color: #395269; }
 .spectrogram img { image-rendering: pixelated; }
+.spectrum-detail { position: absolute; inset: 0; width: 100%; height: 100%; }
+.frequency-marks { position: absolute; inset: 4px 0 4px auto; pointer-events: none; }
+.frequency-marks span {
+  position: absolute; right: 2px; transform: translateY(-50%);
+  background: #091424cc; color: #e1ecf5; padding: 0 2px;
+  font-size: 8px; font-variant-numeric: tabular-nums; white-space: nowrap;
+}
 .plot .selection, .plot .head { display: none; }
 .scope-overlay {
   position: absolute; inset: 24px 0 0; pointer-events: none; z-index: 1;
@@ -88,7 +95,10 @@ button[aria-pressed=true]:not(.play) { background: #1b394a; color: var(--text); 
   font-size: 11px; text-align: center;
 }
 .legend > span + span { padding-left: 8px; border-left: 1px solid #5a7890; }
-.spectrum-key i { width: 30px; }
+.spectrum-key i {
+  width: 30px;
+  background: linear-gradient(90deg,#070c18,#1c1653 21%,#263fad 41%,#2acbdf 62%,#fcd666 85%,#fff8db);
+}
 .compare-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px; }
 .compare-actions button { min-height: 50px; font-weight: 730; font-size: 17px; }
 #loop-selection { border-color: var(--on); color: var(--text); background: #132b3c; }

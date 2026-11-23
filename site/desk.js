@@ -153,7 +153,7 @@ if (data.groups.length) {
   scope.append(axis, tracks, overlay);
   const legend = document.querySelector(".legend");
   const scaleReadout = legend.firstElementChild;
-  scaleReadout.after(element("span", "", "65 Hz–20 kHz"));
+  scaleReadout.after(element("span", "", "65 Hz–20 kHz · 对数"));
   const compareActions = element("div", "compare-actions");
   const loopButton = button("↻  循环选区", () => {
     if (!selection) {
@@ -261,8 +261,37 @@ if (data.groups.length) {
   };
 
   const renderTrack = buildPlot;
+  const frequencyMarks = [[20000, "20k"], [8000, "8k"], [2000, "2k"], [500, "500"], [65, "65 Hz"]];
+
+  function drawSpectrum({spectrum, detail, preview, clip}) {
+    if (!detail.naturalWidth || !spectrum.isConnected) return;
+    const ratio = devicePixelRatio || 1;
+    const box = spectrum.getBoundingClientRect();
+    if (!box.width || !box.height) return;
+    spectrum.width = Math.round(box.width * ratio);
+    spectrum.height = Math.round(box.height * ratio);
+    const pen = spectrum.getContext("2d");
+    pen.imageSmoothingEnabled = false;
+    const contentWidth = Math.round(spectrum.width * clip.seconds / span);
+    pen.drawImage(detail, 0, 0, Math.max(1, contentWidth), spectrum.height);
+    preview.hidden = true;
+  }
+
   buildPlot = (slot, clip) => {
     const plot = renderTrack(slot, clip);
+    const host = plot.track.querySelector(".spectrogram");
+    plot.preview = host.querySelector("img");
+    plot.spectrum = element("canvas", "spectrum-detail");
+    plot.detail = new Image();
+    plot.detail.onload = () => drawSpectrum(plot);
+    plot.detail.src = `../../native/spectrum-v1/${clip.fallback || clip.media}.png`;
+    const marks = element("span", "frequency-marks");
+    for (const [frequency, label] of frequencyMarks) {
+      const tick = element("span", "", label);
+      tick.style.top = `${100 * Math.log(20000 / frequency) / Math.log(20000 / 65)}%`;
+      marks.append(tick);
+    }
+    host.append(plot.spectrum, marks);
     const player = plot.track.querySelector(".play");
     player.textContent = "▶";
     player.onclick = () => {
@@ -289,6 +318,7 @@ if (data.groups.length) {
     waveLimit = sharedLimit();
     scaleReadout.textContent = `波形 ±${waveLimit.toFixed(2)} FS`;
     redraw();
+    plots.forEach(drawSpectrum);
   };
   window.addEventListener("resize", resizePlots);
 
@@ -401,10 +431,6 @@ if (data.groups.length) {
   if (["ab", "abx"].includes(requested) && mode !== requested && pair.length > 1) setMode(requested);
   else {
     refreshDesk();
-    if (mode === "compare") {
-      resizePlots();
-      paintHeads();
-      paintRange();
-    }
+    if (mode === "compare") renderPlots();
   }
 }
