@@ -1,0 +1,114 @@
+{
+  "mode": "full",
+  "device": "iphone",
+  "loadUntilReady": 52.328,
+  "count": 1039,
+  "before": {
+    "time": 0,
+    "ready": 0,
+    "net": 2,
+    "paused": true,
+    "ended": false,
+    "muted": false,
+    "volume": 1,
+    "src": "https://0everey.github.io/fivegun-audio-listen/new/sounds/fivegun/carbine_fire_1.m4a",
+    "error": null
+  },
+  "trace": [
+    [
+      53059,
+      "touchstart",
+      0,
+      0,
+      null
+    ]
+  ],
+  "samples": [
+    [
+      0.406,
+      {
+        "time": 0,
+        "ready": 0,
+        "net": 2,
+        "paused": false,
+        "ended": false,
+        "muted": false,
+        "volume": 1,
+        "src": "https://0everey.github.io/fivegun-audio-listen/new/sounds/fivegun/carbine_fire_1.m4a",
+        "error": null
+      }
+    ],
+    [
+      0.984,
+      {
+        "time": 0,
+        "ready": 0,
+        "net": 2,
+        "paused": false,
+        "ended": false,
+        "muted": false,
+        "volume": 1,
+        "src": "https://0everey.github.io/fivegun-audio-listen/new/sounds/fivegun/carbine_fire_1.m4a",
+        "error": null
+      }
+    ],
+    [
+      1.562,
+      {
+        "time": 0,
+        "ready": 0,
+        "net": 2,
+        "paused": false,
+        "ended": false,
+        "muted": false,
+        "volume": 1,
+        "src": "https://0everey.github.io/fivegun-audio-listen/new/sounds/fivegun/carbine_fire_1.m4a",
+        "error": null
+      }
+    ],
+    [
+      2.156,
+      {
+        "time": 0,
+        "ready": 0,
+        "net": 2,
+        "paused": false,
+        "ended": false,
+        "muted": false,
+        "volume": 1,
+        "src": "https://0everey.github.io/fivegun-audio-listen/new/sounds/fivegun/carbine_fire_1.m4a",
+        "error": null
+      }
+    ],
+    [
+      2.843,
+      {
+        "time": 0,
+        "ready": 0,
+        "net": 2,
+        "paused": false,
+        "ended": false,
+        "muted": false,
+        "volume": 1,
+        "src": "https://0everey.github.io/fivegun-audio-listen/new/sounds/fivegun/carbine_fire_1.m4a",
+        "error": null
+      }
+    ],
+    [
+      3.375,
+      {
+        "time": 0,
+        "ready": 0,
+        "net": 2,
+        "paused": false,
+        "ended": false,
+        "muted": false,
+        "volume": 1,
+        "src": "https://0everey.github.io/fivegun-audio-listen/new/sounds/fivegun/carbine_fire_1.m4a",
+        "error": null
+      }
+    ]
+  ],
+  "net": [],
+  "numRequests": 0
+}

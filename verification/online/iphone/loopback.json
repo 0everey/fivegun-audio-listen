@@ -1,0 +1,45 @@
+{
+  "method": "WASAPI INCLUDE of the audio session PID owned by the Playwright browser, separate run, volume 80%",
+  "samples": [
+    {
+      "event": "fivegun.carbine.fire",
+      "sampleRate": 48000,
+      "sampledChannel": "left",
+      "peak": 0.799895,
+      "nonSilentFrames": 9430,
+      "totalFrames": 59040
+    },
+    {
+      "event": "fivegun.pump.fire",
+      "sampleRate": 48000,
+      "sampledChannel": "left",
+      "peak": 0.799896,
+      "nonSilentFrames": 13652,
+      "totalFrames": 67200
+    },
+    {
+      "event": "fivegun.twins.reload",
+      "sampleRate": 48000,
+      "sampledChannel": "left",
+      "peak": 0.746915,
+      "nonSilentFrames": 10144,
+      "totalFrames": 58560
+    },
+    {
+      "event": "fivegun.ember.skill",
+      "sampleRate": 48000,
+      "sampledChannel": "left",
+      "peak": 0.799896,
+      "nonSilentFrames": 14765,
+      "totalFrames": 55680
+    },
+    {
+      "event": "prism.forge.finale",
+      "sampleRate": 48000,
+      "sampledChannel": "left",
+      "peak": 0.799896,
+      "nonSilentFrames": 24043,
+      "totalFrames": 75360
+    }
+  ]
+}

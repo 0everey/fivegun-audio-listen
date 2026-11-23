@@ -1,0 +1,1527 @@
+{
+  "url": "http://127.0.0.1:18763/",
+  "build": "8b584076c8",
+  "recordedUtc": "2026-11-23T05:21:28.055797+00:00",
+  "device": "android",
+  "engine": "chromium",
+  "engineVersion": "159.0.8154.6",
+  "preTapMediaRequests": 0,
+  "samples": [
+    {
+      "event": "fivegun.carbine.fire",
+      "src": "http://127.0.0.1:18763/media/29563510571285b98df158c7d067465a2907d1230348d195c652a699689af2e8.ogg?v=8b584076c8",
+      "duration": 0.18,
+      "muted": false,
+      "volume": 0.8,
+      "end": 0.18,
+      "trace": [
+        {
+          "ms": 0,
+          "kind": "frame",
+          "time": 0,
+          "ready": 0,
+          "paused": true,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 66,
+          "kind": "tap",
+          "time": 0,
+          "ready": 0,
+          "paused": true,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 82,
+          "kind": "loadstart",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 97,
+          "kind": "loadedmetadata",
+          "time": 0,
+          "ready": 1,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 639,
+          "kind": "playing",
+          "time": 0,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 929,
+          "kind": "frame",
+          "time": 0.008047,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 945,
+          "kind": "frame",
+          "time": 0.013861,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 961,
+          "kind": "frame",
+          "time": 0.015746,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 979,
+          "kind": "frame",
+          "time": 0.02157,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 995,
+          "kind": "frame",
+          "time": 0.038026,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1012,
+          "kind": "frame",
+          "time": 0.055065,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1029,
+          "kind": "frame",
+          "time": 0.072079,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1046,
+          "kind": "frame",
+          "time": 0.088984,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1062,
+          "kind": "frame",
+          "time": 0.104842,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1079,
+          "kind": "frame",
+          "time": 0.121817,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1096,
+          "kind": "frame",
+          "time": 0.138561,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1112,
+          "kind": "frame",
+          "time": 0.15537,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1129,
+          "kind": "frame",
+          "time": 0.172035,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1145,
+          "kind": "frame",
+          "time": 0.18,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1147,
+          "kind": "timeupdate",
+          "time": 0.18,
+          "ready": 4,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 1147,
+          "kind": "ended",
+          "time": 0.18,
+          "ready": 4,
+          "paused": true,
+          "ended": true,
+          "error": null
+        }
+      ],
+      "rangeProbe": {
+        "status": 206,
+        "type": "audio/ogg",
+        "range": "bytes 0-1/5286"
+      }
+    },
+    {
+      "event": "fivegun.pump.fire",
+      "src": "http://127.0.0.1:18763/media/d501a93c3736bb15bfc631f3c844cdcceaa70195f78c63df71d8b4b115e5a876.ogg?v=8b584076c8",
+      "duration": 0.276,
+      "muted": false,
+      "volume": 0.8,
+      "end": 0.276,
+      "trace": [
+        {
+          "ms": 0,
+          "kind": "frame",
+          "time": 0.18,
+          "ready": 4,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 55,
+          "kind": "tap",
+          "time": 0.18,
+          "ready": 4,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 69,
+          "kind": "frame",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 72,
+          "kind": "timeupdate",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 73,
+          "kind": "loadstart",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 82,
+          "kind": "loadedmetadata",
+          "time": 0,
+          "ready": 1,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 105,
+          "kind": "playing",
+          "time": 0,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 153,
+          "kind": "frame",
+          "time": 0.006113,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 169,
+          "kind": "frame",
+          "time": 0.006166,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 186,
+          "kind": "frame",
+          "time": 0.019203,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 202,
+          "kind": "frame",
+          "time": 0.024103,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 219,
+          "kind": "frame",
+          "time": 0.04108,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 237,
+          "kind": "frame",
+          "time": 0.059067,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 253,
+          "kind": "frame",
+          "time": 0.075794,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 270,
+          "kind": "frame",
+          "time": 0.092669,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 286,
+          "kind": "frame",
+          "time": 0.108639,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 303,
+          "kind": "frame",
+          "time": 0.125549,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 319,
+          "kind": "frame",
+          "time": 0.141237,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 336,
+          "kind": "frame",
+          "time": 0.1587,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 354,
+          "kind": "frame",
+          "time": 0.175851,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 355,
+          "kind": "timeupdate",
+          "time": 0.177204,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 369,
+          "kind": "frame",
+          "time": 0.191463,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 386,
+          "kind": "frame",
+          "time": 0.208369,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 403,
+          "kind": "frame",
+          "time": 0.224829,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 419,
+          "kind": "frame",
+          "time": 0.241191,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 436,
+          "kind": "frame",
+          "time": 0.257746,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 453,
+          "kind": "frame",
+          "time": 0.274521,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 467,
+          "kind": "timeupdate",
+          "time": 0.276,
+          "ready": 4,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 467,
+          "kind": "ended",
+          "time": 0.276,
+          "ready": 4,
+          "paused": true,
+          "ended": true,
+          "error": null
+        }
+      ],
+      "rangeProbe": {
+        "status": 206,
+        "type": "audio/ogg",
+        "range": "bytes 0-1/6712"
+      }
+    },
+    {
+      "event": "fivegun.twins.reload",
+      "src": "http://127.0.0.1:18763/media/9abb29edd1ec88bc73b3be1d6038222a9aba6d10d8a4391f7d76568cbae03860.ogg?v=8b584076c8",
+      "duration": 0.179313,
+      "muted": false,
+      "volume": 0.8,
+      "end": 0.179313,
+      "trace": [
+        {
+          "ms": 0,
+          "kind": "frame",
+          "time": 0.276,
+          "ready": 4,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 182,
+          "kind": "tap",
+          "time": 0.276,
+          "ready": 4,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 197,
+          "kind": "frame",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 206,
+          "kind": "timeupdate",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 207,
+          "kind": "loadstart",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 217,
+          "kind": "loadedmetadata",
+          "time": 0,
+          "ready": 1,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 240,
+          "kind": "playing",
+          "time": 0,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 263,
+          "kind": "frame",
+          "time": 0.001683,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 280,
+          "kind": "frame",
+          "time": 0.018975,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 297,
+          "kind": "frame",
+          "time": 0.019016,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 314,
+          "kind": "frame",
+          "time": 0.021242,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 330,
+          "kind": "frame",
+          "time": 0.037833,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 347,
+          "kind": "frame",
+          "time": 0.054162,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 364,
+          "kind": "frame",
+          "time": 0.071318,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 380,
+          "kind": "frame",
+          "time": 0.087548,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 397,
+          "kind": "frame",
+          "time": 0.104474,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 414,
+          "kind": "frame",
+          "time": 0.121531,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 430,
+          "kind": "frame",
+          "time": 0.137533,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 447,
+          "kind": "frame",
+          "time": 0.154151,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 463,
+          "kind": "frame",
+          "time": 0.170933,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 476,
+          "kind": "timeupdate",
+          "time": 0.179313,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 482,
+          "kind": "timeupdate",
+          "time": 0.179313,
+          "ready": 4,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 483,
+          "kind": "ended",
+          "time": 0.179313,
+          "ready": 4,
+          "paused": true,
+          "ended": true,
+          "error": null
+        }
+      ],
+      "rangeProbe": {
+        "status": 206,
+        "type": "audio/ogg",
+        "range": "bytes 0-1/5128"
+      }
+    },
+    {
+      "event": "fivegun.ember.skill",
+      "src": "http://127.0.0.1:18763/media/a2fd7ba684fd9b146c0d6c76b50239c7a2538e429acecdf885fa925c093c8009.ogg?v=8b584076c8",
+      "duration": 0.29,
+      "muted": false,
+      "volume": 0.8,
+      "end": 0.29,
+      "trace": [
+        {
+          "ms": 0,
+          "kind": "frame",
+          "time": 0.179313,
+          "ready": 4,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 100,
+          "kind": "tap",
+          "time": 0.179313,
+          "ready": 4,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 114,
+          "kind": "frame",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 116,
+          "kind": "timeupdate",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 117,
+          "kind": "loadstart",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 122,
+          "kind": "loadedmetadata",
+          "time": 0,
+          "ready": 1,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 138,
+          "kind": "playing",
+          "time": 0,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 164,
+          "kind": "frame",
+          "time": 0.008559,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 180,
+          "kind": "frame",
+          "time": 0.015838,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 197,
+          "kind": "frame",
+          "time": 0.015874,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 214,
+          "kind": "frame",
+          "time": 0.017542,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 230,
+          "kind": "frame",
+          "time": 0.033706,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 247,
+          "kind": "frame",
+          "time": 0.050804,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 263,
+          "kind": "frame",
+          "time": 0.067245,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 281,
+          "kind": "frame",
+          "time": 0.084867,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 297,
+          "kind": "frame",
+          "time": 0.100485,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 313,
+          "kind": "frame",
+          "time": 0.116923,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 330,
+          "kind": "frame",
+          "time": 0.133513,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 347,
+          "kind": "frame",
+          "time": 0.150483,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 364,
+          "kind": "frame",
+          "time": 0.167507,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 380,
+          "kind": "frame",
+          "time": 0.183263,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 391,
+          "kind": "timeupdate",
+          "time": 0.194131,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 397,
+          "kind": "frame",
+          "time": 0.200685,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 413,
+          "kind": "frame",
+          "time": 0.217008,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 431,
+          "kind": "frame",
+          "time": 0.234144,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 447,
+          "kind": "frame",
+          "time": 0.250211,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 464,
+          "kind": "frame",
+          "time": 0.267179,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 481,
+          "kind": "frame",
+          "time": 0.284975,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 485,
+          "kind": "timeupdate",
+          "time": 0.29,
+          "ready": 4,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 485,
+          "kind": "ended",
+          "time": 0.29,
+          "ready": 4,
+          "paused": true,
+          "ended": true,
+          "error": null
+        }
+      ],
+      "rangeProbe": {
+        "status": 206,
+        "type": "audio/ogg",
+        "range": "bytes 0-1/5993"
+      }
+    },
+    {
+      "event": "prism.forge.finale",
+      "src": "http://127.0.0.1:18763/media/cfb92ca8d1fb8ddd6c726b8b39d3879d0217049053d239246163e6a59862dcbc.ogg?v=8b584076c8",
+      "duration": 0.621927,
+      "muted": false,
+      "volume": 0.8,
+      "end": 0.621927,
+      "trace": [
+        {
+          "ms": 0,
+          "kind": "frame",
+          "time": 0.29,
+          "ready": 4,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 91,
+          "kind": "tap",
+          "time": 0.29,
+          "ready": 4,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 105,
+          "kind": "frame",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 106,
+          "kind": "timeupdate",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 107,
+          "kind": "loadstart",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 116,
+          "kind": "loadedmetadata",
+          "time": 0,
+          "ready": 1,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 145,
+          "kind": "playing",
+          "time": 0,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 172,
+          "kind": "frame",
+          "time": 0.017731,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 188,
+          "kind": "frame",
+          "time": 0.017777,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 205,
+          "kind": "frame",
+          "time": 0.03072,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 222,
+          "kind": "frame",
+          "time": 0.033676,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 239,
+          "kind": "frame",
+          "time": 0.053851,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 255,
+          "kind": "frame",
+          "time": 0.073655,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 273,
+          "kind": "frame",
+          "time": 0.094522,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 289,
+          "kind": "frame",
+          "time": 0.101747,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 306,
+          "kind": "frame",
+          "time": 0.119617,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 322,
+          "kind": "frame",
+          "time": 0.138144,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 339,
+          "kind": "frame",
+          "time": 0.158852,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 355,
+          "kind": "frame",
+          "time": 0.177952,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 374,
+          "kind": "frame",
+          "time": 0.18834,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 375,
+          "kind": "timeupdate",
+          "time": 0.189557,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 388,
+          "kind": "frame",
+          "time": 0.205644,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 405,
+          "kind": "frame",
+          "time": 0.22279,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 421,
+          "kind": "frame",
+          "time": 0.242252,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 439,
+          "kind": "frame",
+          "time": 0.251866,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 455,
+          "kind": "frame",
+          "time": 0.270631,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 472,
+          "kind": "frame",
+          "time": 0.291045,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 489,
+          "kind": "frame",
+          "time": 0.310764,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 505,
+          "kind": "frame",
+          "time": 0.327336,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 521,
+          "kind": "frame",
+          "time": 0.33512,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 539,
+          "kind": "frame",
+          "time": 0.355606,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 555,
+          "kind": "frame",
+          "time": 0.375238,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 571,
+          "kind": "frame",
+          "time": 0.383245,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 588,
+          "kind": "frame",
+          "time": 0.403836,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 605,
+          "kind": "frame",
+          "time": 0.420481,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 622,
+          "kind": "frame",
+          "time": 0.440977,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 638,
+          "kind": "frame",
+          "time": 0.460209,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 639,
+          "kind": "timeupdate",
+          "time": 0.461267,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 655,
+          "kind": "frame",
+          "time": 0.468662,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 672,
+          "kind": "frame",
+          "time": 0.489117,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 689,
+          "kind": "frame",
+          "time": 0.507856,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 705,
+          "kind": "frame",
+          "time": 0.524047,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 722,
+          "kind": "frame",
+          "time": 0.544126,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 739,
+          "kind": "frame",
+          "time": 0.552783,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 755,
+          "kind": "frame",
+          "time": 0.572382,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 772,
+          "kind": "frame",
+          "time": 0.592591,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 789,
+          "kind": "frame",
+          "time": 0.601152,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 806,
+          "kind": "frame",
+          "time": 0.617951,
+          "ready": 4,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 807,
+          "kind": "timeupdate",
+          "time": 0.621927,
+          "ready": 4,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 808,
+          "kind": "ended",
+          "time": 0.621927,
+          "ready": 4,
+          "paused": true,
+          "ended": true,
+          "error": null
+        }
+      ],
+      "rangeProbe": {
+        "status": 206,
+        "type": "audio/ogg",
+        "range": "bytes 0-1/6042"
+      }
+    }
+  ],
+  "network": [
+    {
+      "url": "http://127.0.0.1:18763/media/29563510571285b98df158c7d067465a2907d1230348d195c652a699689af2e8.ogg?v=8b584076c8",
+      "status": 206,
+      "type": "audio/ogg",
+      "range": "bytes 0-5285/5286"
+    },
+    {
+      "url": "http://127.0.0.1:18763/media/29563510571285b98df158c7d067465a2907d1230348d195c652a699689af2e8.ogg?v=8b584076c8",
+      "status": 206,
+      "type": "audio/ogg",
+      "range": "bytes 0-1/5286"
+    },
+    {
+      "url": "http://127.0.0.1:18763/media/d501a93c3736bb15bfc631f3c844cdcceaa70195f78c63df71d8b4b115e5a876.ogg?v=8b584076c8",
+      "status": 206,
+      "type": "audio/ogg",
+      "range": "bytes 0-6711/6712"
+    },
+    {
+      "url": "http://127.0.0.1:18763/media/d501a93c3736bb15bfc631f3c844cdcceaa70195f78c63df71d8b4b115e5a876.ogg?v=8b584076c8",
+      "status": 206,
+      "type": "audio/ogg",
+      "range": "bytes 0-1/6712"
+    },
+    {
+      "url": "http://127.0.0.1:18763/media/9abb29edd1ec88bc73b3be1d6038222a9aba6d10d8a4391f7d76568cbae03860.ogg?v=8b584076c8",
+      "status": 206,
+      "type": "audio/ogg",
+      "range": "bytes 0-5127/5128"
+    },
+    {
+      "url": "http://127.0.0.1:18763/media/9abb29edd1ec88bc73b3be1d6038222a9aba6d10d8a4391f7d76568cbae03860.ogg?v=8b584076c8",
+      "status": 206,
+      "type": "audio/ogg",
+      "range": "bytes 0-1/5128"
+    },
+    {
+      "url": "http://127.0.0.1:18763/media/a2fd7ba684fd9b146c0d6c76b50239c7a2538e429acecdf885fa925c093c8009.ogg?v=8b584076c8",
+      "status": 206,
+      "type": "audio/ogg",
+      "range": "bytes 0-5992/5993"
+    },
+    {
+      "url": "http://127.0.0.1:18763/media/a2fd7ba684fd9b146c0d6c76b50239c7a2538e429acecdf885fa925c093c8009.ogg?v=8b584076c8",
+      "status": 206,
+      "type": "audio/ogg",
+      "range": "bytes 0-1/5993"
+    },
+    {
+      "url": "http://127.0.0.1:18763/media/cfb92ca8d1fb8ddd6c726b8b39d3879d0217049053d239246163e6a59862dcbc.ogg?v=8b584076c8",
+      "status": 206,
+      "type": "audio/ogg",
+      "range": "bytes 0-6041/6042"
+    },
+    {
+      "url": "http://127.0.0.1:18763/media/cfb92ca8d1fb8ddd6c726b8b39d3879d0217049053d239246163e6a59862dcbc.ogg?v=8b584076c8",
+      "status": 206,
+      "type": "audio/ogg",
+      "range": "bytes 0-1/6042"
+    }
+  ],
+  "pageErrors": [],
+  "networkNote": "May include explicit bytes=0-1 probes. Windows WebKit native media responses may be absent from Playwright network events."
+}

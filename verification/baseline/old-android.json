@@ -1,0 +1,366 @@
+{
+  "device": "android",
+  "version": "159.0.8154.6",
+  "attempts": [
+    {
+      "label": "menu music",
+      "before": {
+        "time": 0,
+        "ready": 0,
+        "net": 1,
+        "paused": true,
+        "ended": false,
+        "muted": false,
+        "volume": 1,
+        "src": "https://0everey.github.io/fivegun-audio-listen/extra/pipeline-demo/music/panel/mix.m4a",
+        "error": null
+      },
+      "rect": {
+        "x": 27,
+        "y": 656.5,
+        "width": 358,
+        "height": 30
+      },
+      "attempts": [
+        [
+          "native left",
+          {
+            "time": 0,
+            "ready": 1,
+            "net": 2,
+            "paused": false,
+            "ended": false,
+            "muted": false,
+            "volume": 0.8,
+            "src": "https://0everey.github.io/fivegun-audio-listen/extra/pipeline-demo/music/panel/mix.m4a",
+            "error": null
+          },
+          [
+            [
+              "play",
+              0,
+              0,
+              null
+            ],
+            [
+              "waiting",
+              0,
+              0,
+              null
+            ],
+            [
+              "loadedmetadata",
+              0,
+              1,
+              null
+            ]
+          ]
+        ],
+        [
+          "native center",
+          {
+            "time": 26.573561,
+            "ready": 4,
+            "net": 1,
+            "paused": false,
+            "ended": false,
+            "muted": false,
+            "volume": 0.8,
+            "src": "https://0everey.github.io/fivegun-audio-listen/extra/pipeline-demo/music/panel/mix.m4a",
+            "error": null
+          },
+          [
+            [
+              "play",
+              0,
+              0,
+              null
+            ],
+            [
+              "waiting",
+              0,
+              0,
+              null
+            ],
+            [
+              "loadedmetadata",
+              0,
+              1,
+              null
+            ],
+            [
+              "timeupdate",
+              25.961342,
+              1,
+              null
+            ],
+            [
+              "pause",
+              25.961342,
+              1,
+              null
+            ],
+            [
+              "play",
+              25.961342,
+              1,
+              null
+            ],
+            [
+              "waiting",
+              25.961342,
+              1,
+              null
+            ],
+            [
+              "timeupdate",
+              25.961342,
+              4,
+              null
+            ],
+            [
+              "playing",
+              25.961342,
+              4,
+              null
+            ],
+            [
+              "timeupdate",
+              26.075528,
+              4,
+              null
+            ],
+            [
+              "timeupdate",
+              26.353098,
+              4,
+              null
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "label": "fivegun.carbine.fire",
+      "before": {
+        "time": 0,
+        "ready": 0,
+        "net": 1,
+        "paused": true,
+        "ended": false,
+        "muted": false,
+        "volume": 0.8,
+        "src": "https://0everey.github.io/fivegun-audio-listen/new/sounds/fivegun/carbine_fire_1.m4a",
+        "error": null
+      },
+      "rect": {
+        "x": 43.265625,
+        "y": 404,
+        "width": 344.734375,
+        "height": 30
+      },
+      "attempts": [
+        [
+          "native left",
+          {
+            "time": 0.18,
+            "ready": 4,
+            "net": 1,
+            "paused": true,
+            "ended": true,
+            "muted": false,
+            "volume": 0.8,
+            "src": "https://0everey.github.io/fivegun-audio-listen/new/sounds/fivegun/carbine_fire_1.m4a",
+            "error": null
+          },
+          [
+            [
+              "play",
+              0,
+              0,
+              null
+            ],
+            [
+              "waiting",
+              0,
+              0,
+              null
+            ],
+            [
+              "loadedmetadata",
+              0,
+              1,
+              null
+            ],
+            [
+              "playing",
+              0,
+              4,
+              null
+            ],
+            [
+              "timeupdate",
+              0.102473,
+              4,
+              null
+            ],
+            [
+              "timeupdate",
+              0.18,
+              4,
+              null
+            ],
+            [
+              "pause",
+              0.18,
+              4,
+              null
+            ],
+            [
+              "ended",
+              0.18,
+              4,
+              null
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "label": "last new",
+      "before": {
+        "time": 0,
+        "ready": 0,
+        "net": 1,
+        "paused": true,
+        "ended": false,
+        "muted": false,
+        "volume": 0.8,
+        "src": "https://0everey.github.io/fivegun-audio-listen/new/sounds/fivegun/season_thunder_eaves_signature.m4a",
+        "error": null
+      },
+      "rect": {
+        "x": 43.265625,
+        "y": 669.5,
+        "width": 344.734375,
+        "height": 30
+      },
+      "attempts": [
+        [
+          "native left",
+          {
+            "time": 0.102,
+            "ready": 4,
+            "net": 1,
+            "paused": true,
+            "ended": true,
+            "muted": false,
+            "volume": 0.8,
+            "src": "https://0everey.github.io/fivegun-audio-listen/new/sounds/fivegun/season_thunder_eaves_signature.m4a",
+            "error": null
+          },
+          [
+            [
+              "play",
+              0,
+              0,
+              null
+            ],
+            [
+              "waiting",
+              0,
+              0,
+              null
+            ],
+            [
+              "loadedmetadata",
+              0,
+              1,
+              null
+            ],
+            [
+              "playing",
+              0,
+              4,
+              null
+            ],
+            [
+              "timeupdate",
+              0.102,
+              4,
+              null
+            ],
+            [
+              "pause",
+              0.102,
+              4,
+              null
+            ],
+            [
+              "ended",
+              0.102,
+              4,
+              null
+            ]
+          ]
+        ]
+      ]
+    }
+  ],
+  "console": [],
+  "network": [
+    [
+      "https://0everey.github.io/fivegun-audio-listen/extra/pipeline-demo/music/panel/mix.m4a",
+      206,
+      "audio/mp4",
+      "bytes 0-989331/989332"
+    ],
+    [
+      "https://0everey.github.io/fivegun-audio-listen/extra/pipeline-demo/music/panel/mix.m4a",
+      206,
+      "audio/mp4",
+      "bytes 950272-989331/989332"
+    ],
+    [
+      "https://0everey.github.io/fivegun-audio-listen/extra/pipeline-demo/music/panel/mix.m4a",
+      206,
+      "audio/mp4",
+      "bytes 32768-989331/989332"
+    ],
+    [
+      "https://0everey.github.io/fivegun-audio-listen/extra/pipeline-demo/music/panel/mix.m4a",
+      206,
+      "audio/mp4",
+      "bytes 294912-989331/989332"
+    ],
+    [
+      "https://0everey.github.io/fivegun-audio-listen/new/sounds/fivegun/carbine_fire_1.m4a",
+      206,
+      "audio/mp4",
+      "bytes 0-3370/3371"
+    ],
+    [
+      "https://0everey.github.io/fivegun-audio-listen/new/sounds/fivegun/season_thunder_eaves_signature.m4a",
+      206,
+      "audio/mp4",
+      "bytes 0-2516/2517"
+    ]
+  ],
+  "failed": [
+    [
+      "https://0everey.github.io/fivegun-audio-listen/extra/pipeline-demo/music/panel/mix.m4a",
+      "net::ERR_ABORTED"
+    ],
+    [
+      "https://0everey.github.io/fivegun-audio-listen/extra/pipeline-demo/music/panel/mix.m4a",
+      "net::ERR_ABORTED"
+    ]
+  ],
+  "url": "https://0everey.github.io/fivegun-audio-listen/",
+  "pageStatus": 200,
+  "audioCount": 1039,
+  "codecs": {
+    "audio/mp4": "maybe",
+    "audio/ogg; codecs=\"vorbis\"": "probably"
+  }
+}
