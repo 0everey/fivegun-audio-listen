@@ -147,6 +147,7 @@ function makeRow(row) {
   if (row.old.length) controls.append(action("旧版",() => start(row,row.old,0)));
   if ((row.new.length || row.old.length) > 1) controls.append(action("变体连播",() => start(row,row.new.length ? row.new : row.old,0,true)));
   if (row.compare) controls.append(itemLink("进入对比",row.compare,"button"));
+  if (row.wishReview) controls.append(itemLink("待人判",row.wishReview,"button"));
   card.append(controls);
   if (row.variants?.length > 1) {
     const pick = node("select");
