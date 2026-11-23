@@ -1,0 +1,1389 @@
+{
+  "url": "http://127.0.0.1:18763/",
+  "build": "9bb6d8f360",
+  "recordedUtc": "2026-11-23T05:33:51.969393+00:00",
+  "device": "iphone",
+  "engine": "webkit",
+  "engineVersion": "27.2",
+  "preTapMediaRequests": 0,
+  "samples": [
+    {
+      "event": "fivegun.carbine.fire",
+      "src": "http://127.0.0.1:18763/new/sounds/fivegun/carbine_fire_1.m4a?v=9bb6d8f360",
+      "duration": 0.18,
+      "muted": false,
+      "volume": 0.8,
+      "end": 0.18,
+      "trace": [
+        {
+          "ms": 0,
+          "kind": "frame",
+          "time": 0,
+          "ready": 0,
+          "paused": true,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 149,
+          "kind": "tap",
+          "time": 0,
+          "ready": 0,
+          "paused": true,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 182,
+          "kind": "loadstart",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 730,
+          "kind": "loadedmetadata",
+          "time": 0,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 731,
+          "kind": "playing",
+          "time": 0,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 744,
+          "kind": "frame",
+          "time": 0.0065208,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 837,
+          "kind": "frame",
+          "time": 0.0991874,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 852,
+          "kind": "frame",
+          "time": 0.1143332,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 876,
+          "kind": "frame",
+          "time": 0.137979,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 899,
+          "kind": "frame",
+          "time": 0.1617081,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 912,
+          "kind": "frame",
+          "time": 0.1744997,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 928,
+          "kind": "frame",
+          "time": 0.1902081,
+          "ready": 2,
+          "paused": false,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 955,
+          "kind": "frame",
+          "time": 0.2179372,
+          "ready": 2,
+          "paused": false,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 956,
+          "kind": "frame",
+          "time": 0.2186455,
+          "ready": 2,
+          "paused": false,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 960,
+          "kind": "timeupdate",
+          "time": 0.18,
+          "ready": 2,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 962,
+          "kind": "ended",
+          "time": 0.18,
+          "ready": 2,
+          "paused": true,
+          "ended": true,
+          "error": null
+        }
+      ],
+      "rangeProbe": {
+        "status": 206,
+        "type": "audio/mp4",
+        "range": "bytes 0-1/3330"
+      }
+    },
+    {
+      "event": "fivegun.pump.fire",
+      "src": "http://127.0.0.1:18763/new/sounds/fivegun/pump_fire_1.m4a?v=9bb6d8f360",
+      "duration": 0.276,
+      "muted": false,
+      "volume": 0.8,
+      "end": 0.276,
+      "trace": [
+        {
+          "ms": 0,
+          "kind": "frame",
+          "time": 0.18,
+          "ready": 2,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 104,
+          "kind": "tap",
+          "time": 0.18,
+          "ready": 2,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 374,
+          "kind": "frame",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 376,
+          "kind": "timeupdate",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 384,
+          "kind": "loadstart",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 507,
+          "kind": "frame",
+          "time": 0.01,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 507,
+          "kind": "loadedmetadata",
+          "time": 0.01,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 508,
+          "kind": "playing",
+          "time": 0.01,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 509,
+          "kind": "timeupdate",
+          "time": 0.01,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 547,
+          "kind": "frame",
+          "time": 0.040875,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 589,
+          "kind": "frame",
+          "time": 0.0827916,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 599,
+          "kind": "frame",
+          "time": 0.0935415,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 615,
+          "kind": "frame",
+          "time": 0.109979,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 631,
+          "kind": "frame",
+          "time": 0.1263748,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 646,
+          "kind": "frame",
+          "time": 0.1415623,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 661,
+          "kind": "frame",
+          "time": 0.1566039,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 677,
+          "kind": "frame",
+          "time": 0.1719789,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 692,
+          "kind": "frame",
+          "time": 0.1874164,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 708,
+          "kind": "frame",
+          "time": 0.2021872,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 723,
+          "kind": "frame",
+          "time": 0.217333,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 739,
+          "kind": "frame",
+          "time": 0.2331872,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 755,
+          "kind": "frame",
+          "time": 0.249458,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 771,
+          "kind": "timeupdate",
+          "time": 0.2649579,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 772,
+          "kind": "frame",
+          "time": 0.2659788,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 786,
+          "kind": "frame",
+          "time": 0.2803746,
+          "ready": 2,
+          "paused": false,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 801,
+          "kind": "frame",
+          "time": 0.2958954,
+          "ready": 2,
+          "paused": false,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 807,
+          "kind": "frame",
+          "time": 0.3013537,
+          "ready": 2,
+          "paused": false,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 823,
+          "kind": "frame",
+          "time": 0.3184995,
+          "ready": 2,
+          "paused": false,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 826,
+          "kind": "timeupdate",
+          "time": 0.276,
+          "ready": 2,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 827,
+          "kind": "ended",
+          "time": 0.276,
+          "ready": 2,
+          "paused": true,
+          "ended": true,
+          "error": null
+        }
+      ],
+      "rangeProbe": {
+        "status": 206,
+        "type": "audio/mp4",
+        "range": "bytes 0-1/4544"
+      }
+    },
+    {
+      "event": "fivegun.twins.reload",
+      "src": "http://127.0.0.1:18763/new/sounds/fivegun/twins_reload_1.m4a?v=9bb6d8f360",
+      "duration": 0.202,
+      "muted": false,
+      "volume": 0.8,
+      "end": 0.202,
+      "trace": [
+        {
+          "ms": 0,
+          "kind": "frame",
+          "time": 0.276,
+          "ready": 2,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 68,
+          "kind": "tap",
+          "time": 0.276,
+          "ready": 2,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 422,
+          "kind": "timeupdate",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 456,
+          "kind": "loadstart",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 709,
+          "kind": "loadedmetadata",
+          "time": 0,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 711,
+          "kind": "playing",
+          "time": 0,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 798,
+          "kind": "frame",
+          "time": 0.0793749,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 823,
+          "kind": "frame",
+          "time": 0.1043749,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 844,
+          "kind": "frame",
+          "time": 0.1260623,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 858,
+          "kind": "frame",
+          "time": 0.1402081,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 870,
+          "kind": "frame",
+          "time": 0.1517081,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 886,
+          "kind": "frame",
+          "time": 0.1680414,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 902,
+          "kind": "frame",
+          "time": 0.1833331,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 917,
+          "kind": "frame",
+          "time": 0.1986039,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 933,
+          "kind": "frame",
+          "time": 0.2147705,
+          "ready": 2,
+          "paused": false,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 949,
+          "kind": "frame",
+          "time": 0.2304788,
+          "ready": 2,
+          "paused": false,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 965,
+          "kind": "frame",
+          "time": 0,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 966,
+          "kind": "timeupdate",
+          "time": 0.202,
+          "ready": 2,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 967,
+          "kind": "ended",
+          "time": 0.202,
+          "ready": 2,
+          "paused": true,
+          "ended": true,
+          "error": null
+        }
+      ],
+      "rangeProbe": {
+        "status": 206,
+        "type": "audio/mp4",
+        "range": "bytes 0-1/3650"
+      }
+    },
+    {
+      "event": "fivegun.ember.skill",
+      "src": "http://127.0.0.1:18763/new/sounds/fivegun/ember_skill_1.m4a?v=9bb6d8f360",
+      "duration": 0.29,
+      "muted": false,
+      "volume": 0.8,
+      "end": 0.29,
+      "trace": [
+        {
+          "ms": 0,
+          "kind": "frame",
+          "time": 0.202,
+          "ready": 2,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 43,
+          "kind": "tap",
+          "time": 0.202,
+          "ready": 2,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 398,
+          "kind": "timeupdate",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 414,
+          "kind": "loadstart",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 712,
+          "kind": "frame",
+          "time": 0.01,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 713,
+          "kind": "loadedmetadata",
+          "time": 0.01,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 714,
+          "kind": "playing",
+          "time": 0.01,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 715,
+          "kind": "timeupdate",
+          "time": 0.01,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 740,
+          "kind": "frame",
+          "time": 0.027625,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 811,
+          "kind": "frame",
+          "time": 0.098479,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 831,
+          "kind": "frame",
+          "time": 0.118479,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 852,
+          "kind": "frame",
+          "time": 0.139229,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 866,
+          "kind": "frame",
+          "time": 0.1526456,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 886,
+          "kind": "frame",
+          "time": 0.1729164,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 896,
+          "kind": "frame",
+          "time": 0.1825206,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 914,
+          "kind": "frame",
+          "time": 0.2014164,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 926,
+          "kind": "frame",
+          "time": 0.2137705,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 945,
+          "kind": "frame",
+          "time": 0.2322497,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 960,
+          "kind": "frame",
+          "time": 0.2479788,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 973,
+          "kind": "frame",
+          "time": 0.2608121,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 993,
+          "kind": "timeupdate",
+          "time": 0.2809162,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 994,
+          "kind": "frame",
+          "time": 0.2817496,
+          "ready": 2,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1004,
+          "kind": "frame",
+          "time": 0.2919996,
+          "ready": 2,
+          "paused": false,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 1018,
+          "kind": "frame",
+          "time": 0.3054995,
+          "ready": 2,
+          "paused": false,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 1031,
+          "kind": "frame",
+          "time": 0.318812,
+          "ready": 2,
+          "paused": false,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 1043,
+          "kind": "timeupdate",
+          "time": 0.29,
+          "ready": 2,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 1044,
+          "kind": "ended",
+          "time": 0.29,
+          "ready": 2,
+          "paused": true,
+          "ended": true,
+          "error": null
+        }
+      ],
+      "rangeProbe": {
+        "status": 206,
+        "type": "audio/mp4",
+        "range": "bytes 0-1/4815"
+      }
+    },
+    {
+      "event": "prism.forge.finale",
+      "src": "http://127.0.0.1:18763/new/sounds/forge/finale.m4a?v=9bb6d8f360",
+      "duration": 0.646,
+      "muted": false,
+      "volume": 0.8,
+      "end": 0.646,
+      "trace": [
+        {
+          "ms": 0,
+          "kind": "frame",
+          "time": 0.29,
+          "ready": 2,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 50,
+          "kind": "tap",
+          "time": 0.29,
+          "ready": 2,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 346,
+          "kind": "timeupdate",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 362,
+          "kind": "loadstart",
+          "time": 0,
+          "ready": 0,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 573,
+          "kind": "loadedmetadata",
+          "time": 0.01,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 574,
+          "kind": "playing",
+          "time": 0.01,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 609,
+          "kind": "frame",
+          "time": 0.0349999,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 650,
+          "kind": "frame",
+          "time": 0.0762707,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 666,
+          "kind": "frame",
+          "time": 0.0926458,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 682,
+          "kind": "frame",
+          "time": 0.1084999,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 696,
+          "kind": "frame",
+          "time": 0.1231666,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 713,
+          "kind": "frame",
+          "time": 0.1396874,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 729,
+          "kind": "frame",
+          "time": 0.1557499,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 746,
+          "kind": "frame",
+          "time": 0.1730208,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 760,
+          "kind": "frame",
+          "time": 0.1870833,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 776,
+          "kind": "frame",
+          "time": 0.2022916,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 791,
+          "kind": "frame",
+          "time": 0.2183125,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 807,
+          "kind": "frame",
+          "time": 0.2338124,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 822,
+          "kind": "frame",
+          "time": 0.2488749,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 838,
+          "kind": "timeupdate",
+          "time": 0.2647708,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 839,
+          "kind": "frame",
+          "time": 0.265625,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 853,
+          "kind": "frame",
+          "time": 0.2802499,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 869,
+          "kind": "frame",
+          "time": 0.2957708,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 884,
+          "kind": "frame",
+          "time": 0.3104375,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 900,
+          "kind": "frame",
+          "time": 0.3262291,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 915,
+          "kind": "frame",
+          "time": 0.3416249,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 931,
+          "kind": "frame",
+          "time": 0.3566458,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 946,
+          "kind": "frame",
+          "time": 0.3722292,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 961,
+          "kind": "frame",
+          "time": 0.3870208,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 977,
+          "kind": "frame",
+          "time": 0.4028125,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 992,
+          "kind": "frame",
+          "time": 0.4179167,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1007,
+          "kind": "frame",
+          "time": 0.4345208,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1023,
+          "kind": "frame",
+          "time": 0.4500625,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1039,
+          "kind": "frame",
+          "time": 0.4656667,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1054,
+          "kind": "frame",
+          "time": 0.4807917,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1069,
+          "kind": "frame",
+          "time": 0.4965,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1085,
+          "kind": "frame",
+          "time": 0.5118958,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1105,
+          "kind": "timeupdate",
+          "time": 0.5319167,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1106,
+          "kind": "frame",
+          "time": 0.5329167,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1127,
+          "kind": "frame",
+          "time": 0.5544375,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1143,
+          "kind": "frame",
+          "time": 0.5698958,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1157,
+          "kind": "frame",
+          "time": 0.584125,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1177,
+          "kind": "frame",
+          "time": 0.6040208,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1202,
+          "kind": "frame",
+          "time": 0.6288542,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1215,
+          "kind": "frame",
+          "time": 0.6416459,
+          "ready": 3,
+          "paused": false,
+          "ended": false,
+          "error": null
+        },
+        {
+          "ms": 1227,
+          "kind": "frame",
+          "time": 0.6537083,
+          "ready": 3,
+          "paused": false,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 1247,
+          "kind": "frame",
+          "time": 0.6731042,
+          "ready": 3,
+          "paused": false,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 1267,
+          "kind": "timeupdate",
+          "time": 0.646,
+          "ready": 3,
+          "paused": true,
+          "ended": true,
+          "error": null
+        },
+        {
+          "ms": 1268,
+          "kind": "ended",
+          "time": 0.646,
+          "ready": 3,
+          "paused": true,
+          "ended": true,
+          "error": null
+        }
+      ],
+      "rangeProbe": {
+        "status": 206,
+        "type": "audio/mp4",
+        "range": "bytes 0-1/8059"
+      }
+    }
+  ],
+  "network": [
+    {
+      "url": "http://127.0.0.1:18763/new/sounds/fivegun/carbine_fire_1.m4a?v=9bb6d8f360",
+      "status": 206,
+      "type": "audio/mp4",
+      "range": "bytes 0-1/3330"
+    },
+    {
+      "url": "http://127.0.0.1:18763/new/sounds/fivegun/pump_fire_1.m4a?v=9bb6d8f360",
+      "status": 206,
+      "type": "audio/mp4",
+      "range": "bytes 0-1/4544"
+    },
+    {
+      "url": "http://127.0.0.1:18763/new/sounds/fivegun/twins_reload_1.m4a?v=9bb6d8f360",
+      "status": 206,
+      "type": "audio/mp4",
+      "range": "bytes 0-1/3650"
+    },
+    {
+      "url": "http://127.0.0.1:18763/new/sounds/fivegun/ember_skill_1.m4a?v=9bb6d8f360",
+      "status": 206,
+      "type": "audio/mp4",
+      "range": "bytes 0-1/4815"
+    },
+    {
+      "url": "http://127.0.0.1:18763/new/sounds/forge/finale.m4a?v=9bb6d8f360",
+      "status": 206,
+      "type": "audio/mp4",
+      "range": "bytes 0-1/8059"
+    }
+  ],
+  "pageErrors": [],
+  "networkNote": "May include explicit bytes=0-1 probes. Windows WebKit native media responses may be absent from Playwright network events."
+}
