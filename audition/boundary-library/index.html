@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>音效试听</title>
+  <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="../../site/desk.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script><script src="../../site/desk.js" defer></script>
+</head>
+<body>
+  <main>
+    <nav id="site-links" aria-label="手机试听站" hidden>
+      <a href="../../index.html">返回手机试听站</a>
+      <a href="../results.html">判听汇总</a>
+    </nav>
+    <header class="heading">
+      <h1 id="title">音效试听</h1>
+      <button id="download" type="button" disabled>导出判听 JSON</button>
+    </header>
+    <p id="empty" hidden>这批没有可试听的成品。</p>
+    <div id="desk" hidden>
+      <div class="setup">
+        <label>试听组 <select id="group"></select></label>
+        <label>电平 <select id="level"><option value="matched">响度配平</option><option value="raw">原电平</option></select></label>
+        <label class="check" id="compare-phone"><input id="phone" type="checkbox"> 手机外放模拟</label>
+      </div>
+      <div id="review-navigation" hidden>
+        <button id="previous-review" type="button">上一项</button>
+        <output id="review-position"></output>
+        <button id="next-review" type="button">下一项</button>
+      </div>
+      <section class="bench" aria-label="试听与对比">
+        <div class="tabs" role="group" aria-label="试听模式">
+          <button id="compare-mode" aria-pressed="true">对照</button>
+          <button id="ab-mode" aria-pressed="false">A/B 盲听</button>
+          <button id="abx-mode" aria-pressed="false">A/B/X 盲听</button>
+          <button id="stop" class="stop">停止</button>
+        </div>
+        <div id="compare">
+          <div class="timeline-controls">
+            <span>在图上点击定位，拖动框选</span>
+            <div class="range-controls">
+              <output id="range-label">全段</output>
+              <label class="check"><input id="loop" type="checkbox" disabled> 循环</label>
+              <button id="clear-range" disabled>清除</button>
+            </div>
+          </div>
+          <div id="time-axis" class="axis" aria-hidden="true"></div>
+          <div id="tracks"></div>
+          <div class="legend"><span>波形 ±1 · 频谱 65 Hz–20 kHz</span><span class="spectrum-key">−84 <i></i> −6 dBFS</span></div>
+        </div>
+        <div id="blind" hidden>
+          <div class="blind-toolbar">
+            <p id="blind-help"></p>
+            <button id="blind-phone" type="button" aria-pressed="false">手机外放模拟 <span id="blind-phone-state" aria-hidden="true">· 关</span></button>
+          </div>
+          <p id="review-focus" hidden></p>
+          <div id="blind-play" class="blind-controls" aria-label="匿名候选"></div>
+          <label id="review-note-label" hidden>听感备注 <textarea id="review-note" maxlength="500" rows="2"></textarea></label>
+          <div class="verdict"><span id="verdict-label"></span><div id="blind-answers" class="blind-controls"></div></div>
+          <p id="blind-result" hidden></p>
+          <details id="review-details" hidden><summary>原清单与机检提示</summary><p id="review-details-text"></p></details>
+          <button id="next-trial" hidden>重新随机</button>
+        </div>
+        <div id="status" role="status" aria-live="polite">就绪</div>
+      </section>
+      <div class="extras">
+        <section id="rotation" aria-labelledby="roll-title">
+          <h2 id="roll-title">变体轮播</h2>
+          <div class="controls">
+            <label>间隔 <input id="interval" type="number" min="0" max="10" step="0.05" value="0.55" inputmode="decimal"> 秒</label>
+            <label>连发 <input id="rate" type="number" min="0.5" max="20" step="0.5" value="6" inputmode="decimal"> 发/秒</label>
+          </div>
+          <div class="controls"><button id="roll">逐发轮播</button><button id="burst">连发轮播</button></div>
+        </section>
+        <section aria-labelledby="bed-title">
+          <h2 id="bed-title">情境试听</h2>
+          <div class="controls"><button id="choose-bed">选环境声或配乐</button><input id="bed-file" type="file" accept="audio/*,.ogg,.flac,.opus" hidden>
+            <label class="check"><input id="bed-on" type="checkbox" disabled> 叠加</label></div>
+          <label class="bed-gain">底声电平 <input id="bed-gain" type="range" min="-36" max="-10" value="-18"><output id="bed-db">−18 dB</output></label>
+          <p id="bed-name" class="secondary"></p>
+        </section>
+      </div>
+      <details id="credits"><summary>来源与许可</summary><ul id="credit-list"></ul></details>
+    </div>
+  </main>
+  <template id="track-template">
+    <article class="track">
+      <div class="track-controls"><button class="play">播放</button><label><span class="sr-only"></span><select></select></label><span class="readout"></span></div>
+      <div class="plot" tabindex="0" role="group">
+        <canvas class="wave" aria-hidden="true"></canvas>
+        <div class="spectrogram" aria-hidden="true"><img alt=""></div>
+        <div class="plot-grid" aria-hidden="true"></div><div class="selection" hidden></div><div class="head" hidden></div>
+      </div>
+    </article>
+  </template>
+</body>
+</html>

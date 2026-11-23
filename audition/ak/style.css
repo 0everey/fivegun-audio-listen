@@ -1,0 +1,114 @@
+:root {
+  color-scheme: dark;
+  --text: #edf1f8;
+  --muted: #a5b1c3;
+  --line: #2a3547;
+  --surface: #111927;
+  --on: #9cf2dd;
+  --plot: #070a10;
+  font: 15px/1.45 system-ui, "Microsoft YaHei UI", sans-serif;
+  background: #0b101a;
+  color: var(--text);
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; }
+main { max-width: 1160px; margin: auto; padding: 33px 32px; }
+button, select, input { font: inherit; }
+button, select, input[type=number] {
+  min-height: 42px; color: var(--text); background: #192335; border: 1px solid #36445a;
+  border-radius: 8px; padding: 6px 12px;
+}
+button { cursor: pointer; white-space: nowrap; }
+button:hover:not(:disabled), select:hover { border-color: var(--on); }
+button:disabled, input:disabled { opacity: .45; cursor: default; }
+button[aria-pressed=true], .play { background: var(--on); border-color: var(--on); color: #0b2a25; font-weight: 700; }
+:focus-visible { outline: 2px solid var(--on); outline-offset: 3px; }
+a { color: var(--on); overflow-wrap: anywhere; }
+#site-links { display: flex; gap: 18px; margin-bottom: 10px; }
+#site-links a { display: inline-flex; align-items: center; min-height: 44px; }
+input[type=checkbox], input[type=range] { accent-color: #6de2ca; }
+input[type=checkbox] { width: 18px; height: 18px; margin: 0; }
+
+.heading, .setup, .timeline-controls, .range-controls, .tabs, .controls, .track-controls, .legend, .bed-gain {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+}
+.heading, .timeline-controls, .legend { justify-content: space-between; }
+h1 { font-size: clamp(26px, 4vw, 43px); line-height: 1.12; letter-spacing: -.035em; margin: 0; }
+.setup { margin: 20px 0 15px; gap: 10px 16px; }
+.setup label, .check { display: inline-flex; align-items: center; gap: 8px; }
+.setup select { min-width: 0; max-width: 100%; }
+.setup label:first-child { min-width: 0; }
+.bench { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 15px; }
+.tabs { padding-bottom: 11px; border-bottom: 1px solid var(--line); }
+.tabs .stop { margin-left: auto; }
+.timeline-controls, .legend { font-size: 12px; color: var(--muted); }
+.timeline-controls { min-height: 50px; }
+.range-controls button { min-height: 35px; font-size: 12px; }
+.range-controls output, .readout, .axis { font-variant-numeric: tabular-nums; }
+.axis { position: relative; height: 18px; color: var(--muted); font-size: 12px; }
+.axis span { position: absolute; transform: translateX(-50%); white-space: nowrap; }
+.axis span:first-child { transform: none; }
+.axis span:last-child { transform: translateX(-100%); }
+.track { margin: 6px 0 12px; }
+.track-controls { min-height: 43px; padding-bottom: 5px; }
+.track-controls button, .track-controls select { min-height: 38px; }
+.track-controls label { min-width: 0; }
+.track-controls select { max-width: 100%; }
+.readout { margin-left: auto; color: #c2cedf; font-size: 12px; }
+.plot { height: 129px; display: grid; grid-template-rows: 52px 77px; position: relative; background: var(--plot);
+  border: 1px solid var(--line); border-radius: 5px; overflow: hidden; touch-action: pan-y; cursor: crosshair; }
+.wave { width: 100%; height: 52px; display: block; }
+.spectrogram { width: 100%; height: 77px; border-top: 1px solid #2b3445; }
+.spectrogram img { display: block; height: 100%; image-rendering: auto; }
+.plot-grid, .selection, .head { position: absolute; inset: 0; pointer-events: none; }
+.plot-grid { background: linear-gradient(to right, transparent calc(100% - 1px), #91a9c333 0); background-size: 25% 100%; }
+.selection { width: 0; background: #ecf8ff27; border-inline: 1px solid #d8f4e6; }
+.head { width: 2px; background: #f3fff9; box-shadow: 0 0 6px #9cf2ddbb; }
+.spectrum-key { display: inline-flex; align-items: center; gap: 7px; }
+.spectrum-key i { width: 54px; height: 7px; background: linear-gradient(90deg,#070a10,#155669,#26a8a0,#e4b861,#fff2ca); }
+#status { padding-top: 10px; color: #bfd3e7; min-height: 35px; overflow-wrap: anywhere; }
+#blind { min-height: 260px; padding: 14px 2px; }
+.blind-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; margin: 0 0 12px; }
+.blind-toolbar p { margin: 4px 0; }
+.blind-toolbar button { min-height: 44px; }
+.blind-controls { display: flex; flex-wrap: wrap; gap: 9px; }
+.blind-controls button { min-width: 76px; }
+.verdict { margin-top: 22px; display: grid; gap: 8px; }
+#blind-result { color: var(--on); }
+.extras { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 12px 0; }
+.extras section { border: 1px solid var(--line); border-radius: 12px; background: var(--surface); padding: 12px 15px; }
+h2 { margin: 0 0 9px; font-size: 17px; }
+.controls + .controls, .bed-gain { margin-top: 8px; }
+.controls label { white-space: nowrap; }
+.controls input[type=number] { max-width: 70px; }
+.bed-gain input { width: min(40vw, 168px); }
+.secondary { color: var(--muted); font-size: 12px; margin: 5px 0 0; overflow-wrap: anywhere; }
+.secondary:empty { display: none; }
+details { font-size: 13px; color: var(--muted); padding: 6px 2px; }
+summary { cursor: pointer; }
+#credit-list { overflow-wrap: anywhere; }
+.sr-only { position: absolute; width: 1px; height: 1px; clip-path: inset(50%); overflow: hidden; white-space: nowrap; }
+
+@media (max-width: 630px) {
+  main { padding: 21px 12px; }
+  .heading { align-items: flex-start; }
+  .heading button { font-size: 12px; }
+  .setup { margin: 14px 0 12px; }
+  .setup label:first-child { width: 100%; }
+  .setup label:first-child select { flex: 1; }
+  .bench { padding: 9px; }
+  .tabs { gap: 6px; }
+  .tabs button { font-size: 12px; padding-inline: 7px; }
+  .timeline-controls { gap: 4px; padding: 4px 0; }
+  .range-controls { margin-left: auto; }
+  .plot { height: 112px; grid-template-rows: 44px 68px; }
+  .wave { height: 44px; }
+  .spectrogram { height: 68px; }
+  .track-controls label { flex: 1 1 130px; }
+  .track-controls select { width: 100%; min-height: 44px; font-size: 12px; }
+  .track-controls button, .range-controls button { min-height: 44px; }
+  .readout { font-size: 11px; }
+  .extras { grid-template-columns: 1fr; }
+}
